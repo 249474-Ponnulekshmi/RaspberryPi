@@ -34,17 +34,17 @@ This project fetches real-time weather data from the **OpenWeatherMap API** on a
   - You can use any port number, but it should be same in both server and client
 
 ## Example output at Client Side
-  Enter city name (or type 'exit' to quit): Trivandrum
-  Temp: 24.5°C
-  Pressure: 1013 hPa
-  Condition: Heavy intensity rain
-  Data sent to Raspberry Pi.
+  -> Enter city name (or type '!' to quit): Trivandrum
+  -> Temp: 24.5°C
+  -> Pressure: 1013 hPa
+  -> Condition: Heavy intensity rain
+  -> Data sent to Raspberry Pi.
 ## Example output at Server side
-  Server is listening on port 5555...
-  Connection from ('192.168.1.2', 52674)
-  Received data:
-  {'temperature': 24.5, 'pressure': 1013, 'condition': 'Heavy intensity rain'}
-  Temp normal. LED OFF
+  -> Server is listening on port 5555...
+  -> Connection from ('192.168.1.2', 52674)
+  -> Received data:
+  -> {'temperature': 24.5, 'pressure': 1013, 'condition': 'Heavy intensity rain'}
+  -> Temp normal. LED OFF
 
 
 
